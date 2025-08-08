@@ -1,4 +1,4 @@
-let user = [
+const UserData=[
     {
       "id": 1,
       "name": "Leanne Graham",
@@ -231,5 +231,4 @@ let user = [
     }
   ]
 
-
-  export default user;
+export default UserData;
