@@ -23,6 +23,7 @@ This project showcases my skills, projects, and technologies I have worked with.
 
 ## 📸 Preview
 
+https://github.com/user-attachments/assets/b93deee6-50fa-43fd-8366-9b43c8890c4a
 
 ---
 
