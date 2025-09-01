@@ -1,0 +1,110 @@
+/* Container */
+.container {
+    height: 550px;
+    width: 90%;
+    max-width: 420px; /* smaller card */
+    margin: 40px auto;
+    padding: 20px;
+    background: #f88b8b;
+    border-radius: 14px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 18px;
+  }
+  
+  /* Form */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1.5px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 4px rgba(108, 99, 255, 0.3);
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn.primary {
+    background: #6c63ff;
+    color: white;
+  }
+  
+  .btn.primary:hover {
+    background: #574edc;
+  }
+  
+  .btn.edit {
+    background: #25cd07;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .btn.edit:hover {
+    background: #267518;
+  }
+  
+  .btn.delete {
+    background: #e53935;
+    color: white;
+  }
+  
+  .btn.delete:hover {
+    background: #c62828;
+  }
+  
+  /* Book List */
+  .book-list {
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .book-item:hover {
+    transform: translateY(-1px);
+    background: #f0f0f0;
+  }
+  
+  .book-info {
+    font-size: 14px;
+    color: #333;
+  }
+  

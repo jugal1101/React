@@ -62,9 +62,9 @@ export default function AppointmentBooking() {
         <label>Select Doctor</label>
         <select name="doctor" value={formData.doctor} onChange={handleChange} required>
           <option value="">--Select Doctor--</option>
-          <option value="Dr. Smith">Dr. Akhil Sarkar</option>
-          <option value="Dr. Johnson">Dr. Alkesh Dudhat</option>
-          <option value="Dr. Brown">Dr. Hiren Pipaliya</option>
+          <option value="Dr. Akhil Sarkar">Dr. Akhil Sarkar</option>
+          <option value="Dr. Alkesh Dudhat">Dr. Alkesh Dudhat</option>
+          <option value="Dr. Hiren Pipaliya">Dr. Hiren Pipaliya</option>
         </select>
 
         <button type="submit">{editIndex !== null ? 'Update' : 'Book Now'}</button>
