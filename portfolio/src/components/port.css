@@ -1,0 +1,239 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #fdfdfd;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 12%;
+    background: #111;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ffcc00;
+  }
+  
+  .nav-links a {
+    margin: 0 18px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ddd;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, #ffcc00, #ff8800);
+    color: #fff;
+  }
+  
+  .hero-content h2 {
+    font-size: 2.8rem;
+  }
+  
+  .hero-content span {
+    color: #111;
+  }
+  
+  .hero-content p {
+    margin-top: 12px;
+    font-size: 1.3rem;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 70px 18%;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    color: #ff8800;
+  }
+  
+  .about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.05rem;
+    color: #555;
+  }
+  
+  /* Tech Section */
+  .tech {
+    padding: 70px 18%;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .tech h2 {
+    font-size: 2.2rem;
+    margin-bottom: 35px;
+    color: #ff8800;
+  }
+  
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 25px;
+  }
+  
+  .tech-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-weight: 500;
+    font-size: 1.05rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .tech-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.2);
+    background: #ffcc00;
+    color: #111;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 70px 18%;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 2.2rem;
+    margin-bottom: 35px;
+    color: #ff8800;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .project-card {
+    background: #fff;
+    padding: 28px;
+    border-radius: 15px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .project-card a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.2);
+  }
+  
+  .project-btn {
+    margin-top: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #ff8800;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .project-btn:hover {
+    background: #111;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 70px 18%;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.2rem;
+    margin-bottom: 35px;
+    color: #ff8800;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #ff8800;
+  }
+  
+  .contact-form button {
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #ff8800;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background: #111;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 25px;
+    background: #111;
+    color: #ddd;
+    font-size: 0.95rem;
+  }
+  
