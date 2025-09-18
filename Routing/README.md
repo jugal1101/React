@@ -75,7 +75,9 @@ export default App;
 
 ## 📸 Demo 
 
-Add screenshots of your Home, Products, and Cart page here.
+
+https://github.com/user-attachments/assets/d5f42af0-55c6-442e-9f11-68195449e438
+
 
 ## 📌 Future Enhancements
 
