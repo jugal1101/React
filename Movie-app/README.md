@@ -77,7 +77,10 @@ Click Logout to end session (you cannot go back without logging out).
 
 ## 🖼️ Demo
 
-Login Page
+
+https://github.com/user-attachments/assets/b0be5ab9-bdaa-4b4a-be44-b1c40b9e6794
+
+
 
 Home Page (CRUD movies)
 
